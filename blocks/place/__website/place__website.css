@@ -1,0 +1,8 @@
+.place__website{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    justify-self: start;
+    align-self: end;
+    margin: 0 40px 48px;
+}

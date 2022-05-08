@@ -1,0 +1,8 @@
+.place__paragraphs{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+    justify-self: start;
+    align-self: start;
+    margin: 0 0 0 40px;
+}
