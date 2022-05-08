@@ -1,18 +1,24 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
     padding: 28px 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
     .header {
-        padding: 28px 24px;
+        padding: 28px 48px 20px;;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
     .header {
-        padding: 16px 16px;
+        padding: 28px 24px 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 20px;
     }
 }
