@@ -1,8 +1,15 @@
-.place__website{
+.place__website {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 
     justify-self: start;
     align-self: end;
     margin: 0 40px 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        align-self: flex-start;
+        margin: 32px 16px;
+    }
 }

@@ -6,3 +6,14 @@
         
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__paragraph {
+        font-size: 16px;
+        margin: 0 0 25px;
+    }
+}
+
+.place__paragraph:last-of-type{
+    margin: 0;
+}

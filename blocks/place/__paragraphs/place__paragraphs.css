@@ -6,3 +6,15 @@
     align-self: start;
     margin: 0 0 0 40px;
 }
+
+@media screen and (max-width: 1023px) {
+    .place__paragraphs{
+        margin: 0 0 0 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__paragraphs{
+        margin: 32px 16px 0;
+    }
+}
