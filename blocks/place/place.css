@@ -1,19 +1,19 @@
 .place{
     display: grid;
-    grid-template: 200px 460px / 460px 524px;
+    grid-template: max-content 48px 460px/ 460px 40px 484px;
     padding: 80px 0 0;
 }
 
 @media screen and (max-width: 1279px) {
     .place{
-        grid-template: 200px 440px / 440px 488px;
+        grid-template: 152px 48px 440px / 440px 32px 456px;
     }
 }
 
 
 @media screen and (max-width: 1023px) {
     .place{
-        grid-template: 140px max-content / 340px 380px;
+        grid-template: 92px 48px max-content / 340px 28px 352px;
         padding: 73 px 0 0;
     }
 }

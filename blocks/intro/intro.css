@@ -3,20 +3,21 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 984px;
+    min-width: 984px;
     box-sizing: border-box;
 }
 
 
 @media screen and (max-width: 1279px) {
     .intro{
-        width: 928px;
+        min-width: 928px;
     }
     
 }
 
 @media screen and (max-width: 1023px) {
     .intro{
+        min-width: 0;
         width: 100%;
         padding: 88px 24px 0;
     }

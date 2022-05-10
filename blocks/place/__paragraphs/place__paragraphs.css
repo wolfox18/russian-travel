@@ -1,17 +1,17 @@
 .place__paragraphs{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
 
     justify-self: start;
     align-self: start;
-    margin: 0 0 0 40px;
+    margin: 0;
 }
-
+/* 
 @media screen and (max-width: 1023px) {
     .place__paragraphs{
-        margin: 0 0 0 28px;
+        margin: 0;
     }
-}
+} */
 
 @media screen and (max-width: 767px) {
     .place__paragraphs{

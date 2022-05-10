@@ -1,5 +1,8 @@
 # Проект: Путешествие по России
 
+Страница на Pages:
+[https://wolfox18.github.io/russian-travel/](https://wolfox18.github.io/russian-travel/)
+
 ### Обзор
 * Интро
 * Figma
